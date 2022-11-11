@@ -1,0 +1,60 @@
+.privilege {
+    position: relative;
+    margin-top: 138px;
+    margin-bottom: 100px;
+  }
+  
+  .privilege::before {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 8px;
+  
+    position: absolute;
+    margin: 0;
+    top: -30px;
+    left: 120px;
+  
+    background-color: var(--accent-color);
+  }
+  
+  .privilege__title {
+    margin-bottom: 12px;
+  
+    font-size: 32px;
+    line-height: 1.12;
+    /* text-align: center; */
+  
+    color: var(--primary-color);
+  }
+  
+  .privilege__text {
+    width: 600px;
+    margin-bottom: 30px;
+  
+    font-size: 16px;
+    line-height: 1.5;
+  
+    color: var(--primary-color);
+  }
+  
+  .privilege__list {
+    display: grid;
+    grid-template-columns: 568px 568px;
+    grid-gap: 32px;
+  }
+  
+  .privilege__item {
+    display: grid;
+    grid-template-columns: 36px 516px;
+    grid-gap: 16px;
+  }
+  
+  .privilege__item-text {
+    line-height: 1.43;
+    color: var(--primary-color);
+  }
+  
+  .privilege__item-text--dark {
+    color: var(--text-color);
+  }
