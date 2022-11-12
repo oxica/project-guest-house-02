@@ -1,75 +1,60 @@
 .advantages {
-    position: relative;
-    padding-top: 138px;
-    padding-bottom: 100px;
-    background-color: var(--secondary-color);
-  }
-  
-  .advantages::before {
-    content: "";
-    display: block;
-    width: 42px;
-    height: 8px;
-    background-color: var(--accent-color);
-    position: absolute;
-    margin: 0;
-    top: 100px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .advantages__title {
-    margin-bottom: 12px;
-  
-    font-size: 32px;
-    line-height: 1.12;
-    text-align: center;
-  
-    color: var(--primary-color);
-  }
-  
-  .advantages__pre-text {
-    width: 554px;
-    margin-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
-  
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-  
-    color: var(--primary-color);
-  }
-  
-  .advantages__list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .advantages__item {
-    width: 347px;
-  }
-  
-  .advantages-icon {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 12px;
-  }
-  
-  .advantages__item-title {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-  
-    color: var(--primary-color);
-  }
-  
-  .advantages__item-text {
-    line-height: 1.43;
-    text-align: center;
-  
-    color: var(--primary-color);
-  }
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--secondary-color);
+}
+
+.advantages__title {
+  margin-bottom: 12px;
+
+  font-size: 32px;
+  line-height: 1.12;
+  text-align: center;
+
+  color: var(--primary-color);
+}
+
+.advantages__pre-text {
+  width: 554px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: var(--primary-color);
+}
+
+.advantages__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  width: 347px;
+}
+
+.advantages-icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 12px;
+}
+
+.advantages__item-title {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: var(--primary-color);
+}
+
+.advantages__item-text {
+  line-height: 1.43;
+  text-align: center;
+
+  color: var(--primary-color);
+}

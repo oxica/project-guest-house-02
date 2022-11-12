@@ -1,0 +1,13 @@
+.rectangle-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.rectangle {
+  width: 42px;
+  height: 8px;
+  border-radius: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
+}
