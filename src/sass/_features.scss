@@ -20,26 +20,17 @@
   }
   
   .features__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    width: 768px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
+    column-width: 40%;
+	  column-count: 2;
+	  column-gap: 6%;
+    padding: 0px 16px;
   }
   
-  .features__text1 {
-    width: 360px;
-  
+  .features__text {  
     line-height: 1.43;
     color: var(--text-color);
-  }
-  
-  .features__text2 {
-    width: 343px;
     margin-bottom: 41px;
-  
-    font-size: 13px;
-    line-height: 1.54;
-    color: var(--text-color);
   }
