@@ -8,10 +8,19 @@
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  column-width: 40%;
-  column-count: 2;
-  column-gap: 6%;
+  display: flex;
+  // column-width: 40%;
+  // column-count: 2;
+  // column-gap: 6%;
   padding: 0px 16px;
+   
+}
+.features-flex:last-child{
+  margin-left: 40px;
+}
+
+.features-flex{
+  flex: 1 360px;
 }
 
 .features__text {
