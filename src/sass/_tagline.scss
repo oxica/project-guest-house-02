@@ -1,13 +1,17 @@
 .tagline {
   position: relative;
   padding-top: 100px;
-  padding-bottom: 140px;
 }
 
-.tagline__title {
+.tagline__text {
   font-weight: 700;
   font-size: 96px;
   text-align: center;
+  margin-bottom: 140px;
 
   color: var(--primary-color);
+}
+
+.tagline img{
+  width: 100%;
 }
