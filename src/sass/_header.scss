@@ -3,14 +3,10 @@
 }
 
 .header-container {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .header-nav {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 10px 0px;
 }
@@ -19,12 +15,6 @@
   width: 128px;
   padding-top: 8px;
   padding-bottom: 7px;
-}
-
-.header-nav__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .header-nav__item:not(:last-child) {

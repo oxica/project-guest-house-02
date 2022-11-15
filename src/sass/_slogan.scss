@@ -1,6 +1,4 @@
 .slogan__flex {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding-bottom: 100px;
 }
@@ -18,7 +16,7 @@
 }
 
 .slogan h2 {
-  text-align:start;
+  text-align: start;
 }
 
 .slogan__text {
@@ -36,9 +34,6 @@
 }
 
 .slogan__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-bottom: 13px;
 }
 
