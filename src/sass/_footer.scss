@@ -75,13 +75,19 @@
   width: 576px;
   margin: 0;
   padding: 16px 30px;
+  
   border-radius: 8px;
+  text-overflow: ellipsis;
 
   border: 1px solid #e5e7eb;
   background-color: #f9fafb;
   color: var(--primary-color);
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__submit-input:not(:focus){
+  direction: rtl;
 }
 
 .footer__submit-input::placeholder {
